@@ -1,0 +1,20 @@
+<!doctype>
+<html>
+<head>
+<title>Latihan3 JS</title>
+<script language="javascript" src="js/myscript.js">
+</script>
+</head>
+<body>
+<marquee onmouseover="this.stop()" onmouseout="this.start()">
+<img src="images/kambing.png"/ >
+<img src="images/kucing.png"/ >
+</marquee>
+<form id="formulir">
+<label>Nama: </label><input type="text" name="nama" />
+<br/><label>Nilai: </label><input type="text" name="nilai" />
+<br/><input type="button" value="Simpan" onclick="penilaian()"/>
+<input type="button" value="Hapus" onclick="return confirm('Yakin diHapus?')"/>
+</form>
+</body>
+</html>

@@ -1,0 +1,108 @@
+p{
+    color:blue;
+    text-align: justify;
+    padding: 0.5cm;
+    line-height: 0.5cm;
+    font-size: 14pt;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p.p3{
+    color:rgb(141, 46, 51);
+    text-align: center;
+    padding: 1cm;
+    line-height: 1cm;
+    font-size: 16pt;
+    font-family: calibri,fantasy;
+}
+
+body{
+    background-image: linear-gradient(180deg, rgb(98, 240, 122), rgb(216, 235, 106), red);
+    margin: 2cm 3cm;
+}
+
+h1{
+    color:rgb(241, 80, 80);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 5px 5px 7px white;
+}
+
+fieldset, legend{ /* grouping */
+    border:rgb(152, 104, 240) 5px ridge;
+    border-radius: 35px;
+    background: khaki;
+    padding: 5px;
+}
+
+hr{
+    border:1px dashed red;
+}
+
+img{
+    border: 12px orangered groove;
+}
+
+.aboutme{
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: crimson;  
+}
+
+ol{
+    list-style-image: url("../images/smile.png");
+}
+
+ul{
+    list-style-image: url("../images/good.png");
+}
+#menu{
+    text-align: center;
+}
+/* ---------pseudo class----------- */
+a:link, a:visited{
+    text-decoration: none;
+    border:1px solid red;
+    background: yellowgreen;
+    padding: 5px;
+    font-size: 12pt;
+}
+a:active{
+    text-decoration: none;
+    border:10px solid rgb(244, 243, 250);
+    background: rgb(108, 218, 141);
+    padding: 15px;
+    font-size: 24pt;
+}
+
+a:hover{
+    text-decoration: none;
+    border:2px dotted rgb(238, 81, 53);
+    border-radius: 20px;
+    background: rgb(233, 243, 91);
+    padding: 5px;
+    font-size: 14pt;
+}
+
+a#logo:hover, a#logo:link, a#logo:visited, a#logo:active{
+    text-decoration: none;
+}
+
+/* ----------pseudo element------------- */
+p.p2:first-letter{
+    font-size: 40pt;
+    font-weight: bold;
+    color: red;
+    float:left;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+p.p2:first-line{
+    background: white;
+    font-style: italic;
+}

@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+    <title>Belajar Form</title>
+</head>
+<body>
+<form>
+<table align="center" cellpadding="15" width="50%">
+    <thead>
+        <tr bgcolor="orange">
+            <th colspan="2">Form Produk</th>
+        </tr>
+    </thead>
+    <tfoot>
+        <tr bgcolor="magenta">
+            <th colspan="2">
+                <input type="submit" name="proses"
+                 value="simpan"/>&nbsp;
+                <input type="reset" name="unproses"
+                 value="batal"/>&nbsp;
+            </th>
+        </tr>
+    </tfoot>
+    <tbody>
+        <tr>
+            <td width="30%"><label>Nama Produk</label></td>
+            <td>
+                <input type="text" name="nama" value=""
+                 placeholder="Nama Produk" size="50"/>
+            </td>
+        </tr>         
+        <tr>
+            <td><label>Jenis Produk</label></td>
+            <td>
+                <select name="jenis">
+                    <option value="">-- Pilih Jenis Produk--</option>
+                    <option value="Elektronik">Elektronik</option>
+                    <option value="Furniture">Furniture</option>
+                </select> 
+            </td>
+        </tr>
+        <tr>
+            <td><label>Harga Produk</label></td>
+            <td>
+                <input type="text" name="harga" value=""
+                 placeholder="Harga Produk" size="50"/>
+            </td>
+        </tr>
+        <tr>
+            <td><label>Stok Produk</label></td>
+            <td>
+                <input type="text" name="stok" value=""
+                 placeholder="Stok Produk" size="50"/>
+            </td>
+        </tr>
+        <tr>
+            <td><label>Foto Produk</label></td>
+            <td>
+                <input type="file" name="foto"/>
+            </td>
+        </tr>
+    </tbody>
+</table>
+</form>
+</body>
+</html>

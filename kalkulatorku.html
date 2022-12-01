@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kalkulatorku</title>
+    <script language="javascript" src="js/calc.js">
+    </script>
+</head>
+<body>
+<form id="kalkulator">
+    <table border="0" align="center" cellpadding = 10 width = 30%>
+        <thead align="center" style="background-color: darkgray;">
+            <tr>
+                <th colspan="2"><label>Kalkulatorku</label></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td width="30%">Angka 1</td>
+                <td>
+                    <input type="text" name="a1" value="Angka 1" onfocus="kosongin1()">
+                </td>
+            </tr>
+            <tr>
+                <td>Angka 2</td>
+                <td>
+                    <input type="text" name="a2" value="Angka 2" onfocus="kosongin2()">
+                </td>
+            </tr>
+            <tr>
+                <td>Hasil</td>
+                <td>
+                    <input type="text" name="hs" disabled>
+                </td>
+            </tr>
+        </tbody>
+        <tfoot style="background-color: darkgray;">
+            <th colspan="2">
+                <input type="button" name="proses" value="+" onclick="tambah()">&nbsp;
+                <input type="button" name="proses" value="-" onclick="kurang()">&nbsp;
+                <input type="button" name="proses" value="x" onclick="kali()">&nbsp;
+                <input type="button" name="proses" value="/" onclick="bagi()">&nbsp;
+                <input type="button" name="proses" value="^" onclick="pangkat()">&nbsp;
+                <input type="reset" name="unproses" value="Batal" onclick="kosonginAll()">
+            </th>
+        </tfoot>
+    </table>
+</form>
+</body>
+</html>

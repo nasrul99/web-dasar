@@ -1,0 +1,21 @@
+<!doctype>
+<html>
+<head>
+<title>Latihan2 JS</title>
+<script language="javascript">
+function tampilkanData(){
+    var frm = window.document.getElementById("formulir");
+    var siswa = frm.nama.value;
+    var almt = frm.alamat.value;
+    alert("Nama siswa: "+siswa+" tinggal di "+almt);
+}
+</script>
+</head>
+<body>
+<form id="formulir">
+<label>Nama: </label><input type="text" name="nama" />
+<br/><label>Alamat: </label><textarea name="alamat"></textarea>
+<br/><input type="button" value="Simpan" onclick="tampilkanData()"/>
+</form>
+</body>
+</html>
